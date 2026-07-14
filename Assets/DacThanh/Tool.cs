@@ -1,70 +1,65 @@
-    using System;
-    using UnityEngine;
+using UnityEngine;
 
-    public class Tool : MonoBehaviour
+public class Tool : MonoBehaviour
+{
+    public GameObject owner;
+
+    private void Start()
     {
-        public GameObject owner;
-        private void Start()
+        FindVillager();
+    }
+
+    private void Update()
+    {
+        if (owner == null)
         {
             FindVillager();
         }
+    }
 
-        private void Update()
+    private void FindVillager()
+    {
+        Villager[] villagers = FindObjectsOfType<Villager>();
+
+        float minDistance = Mathf.Infinity;
+        Villager nearestVillager = null;
+
+        foreach (Villager villager in villagers)
         {
-            if (owner != null)
+            if (villager.hasTool)
+                continue;
+
+            float distance = Vector2.Distance(
+                transform.position,
+                villager.transform.position);
+
+            if (distance < minDistance)
             {
-                return;
-            }
-            else
-            {
-                FindVillager();
+                minDistance = distance;
+                nearestVillager = villager;
             }
         }
 
-        private void FindVillager()
+        if (nearestVillager != null)
         {
-            if (owner != null) return;
-
-            Villager[] villagers = FindObjectsOfType<Villager>();
-
-            float minDistance = Mathf.Infinity;
-            Villager nearestVillager = null;
-
-            foreach (Villager villager in villagers)
-            {
-                // Nếu muốn bỏ qua Villager đã có tool
-                if (villager.hasTool)
-                    continue;
-
-                float distance = Vector3.Distance(transform.position, villager.transform.position);
-
-                if (distance < minDistance)
-                {
-                    minDistance = distance;
-                    nearestVillager = villager;
-                }
-            }
-
-            if (nearestVillager != null)
-            {
-                owner = nearestVillager.gameObject;
-
-                nearestVillager.TargetPosition = transform.position;
-                nearestVillager.hasMoveCommand = true;
-            }
+            owner = nearestVillager.gameObject;
+            nearestVillager.TargetPosition = transform.position;
+            nearestVillager.hasMoveCommand = true;
         }
+    }
 
-        private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
         {
-            if (other.gameObject.tag == "Player")
+            Villager villager = other.GetComponent<Villager>();
+
+            if (villager != null)
             {
-                var villager = other.gameObject.GetComponent<Villager>();
-                if (villager != null)
-                {
-                    villager.hasTool = true;
-                    villager.hasMoveCommand = false;
-                    Destroy(gameObject);
-                }
+                villager.hasTool = true;
+                villager.hasMoveCommand = false;
+                Destroy(gameObject);
             }
         }
     }
+}
