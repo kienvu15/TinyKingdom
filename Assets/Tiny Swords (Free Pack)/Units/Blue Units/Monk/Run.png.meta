@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: d13fe5dbf45e6f345b86d928a37b5c29
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1725074434948180663
+    second: Run_00
+  - first:
+      213: -6450398274895702993
+    second: Run_01
+  - first:
+      213: 7322464546081896913
+    second: Run_02
+  - first:
+      213: -3218867303384580802
+    second: Run_03
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -110,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run_0
+      name: Run_00
       rect:
         serializedVersion: 2
         x: 56
@@ -123,16 +135,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cf6c61ff255117e479adb2e18b8e5508
-      internalID: -644140955
+      spriteID: 7baa13a0f02b0f710800000000000000
+      internalID: 1725074434948180663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_1
+      name: Run_01
       rect:
         serializedVersion: 2
         x: 247
@@ -145,16 +157,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: aca29001a60760144a7303758dfa64dc
-      internalID: -841960604
+      spriteID: f249c05d1f49b76a0800000000000000
+      internalID: -6450398274895702993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_2
+      name: Run_02
       rect:
         serializedVersion: 2
         x: 440
@@ -167,16 +179,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ea62418de5cc56c49816dba3ae18660a
-      internalID: 1962369927
+      spriteID: 1d97a9565be9e9560800000000000000
+      internalID: 7322464546081896913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_3
+      name: Run_03
       rect:
         serializedVersion: 2
         x: 632
@@ -189,10 +201,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f85f8be4d0c53584e9f60427836105f2
-      internalID: 1338663920
+      spriteID: e3d74aaed394453d0800000000000000
+      internalID: -3218867303384580802
       vertices: []
       indices: 
       edges: []
@@ -214,6 +226,10 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Run_0: -644140955
+      Run_00: 1725074434948180663
+      Run_01: -6450398274895702993
+      Run_02: 7322464546081896913
+      Run_03: -3218867303384580802
       Run_1: -841960604
       Run_2: 1962369927
       Run_3: 1338663920

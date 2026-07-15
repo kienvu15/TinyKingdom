@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0560ad2ffe6c5fb4a8b2e30ad270cfc5, type: 3}
+  m_Name: GreedkinSpawnConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GreedkinSpawnConfig
+  entries:
+  - label: Greedkin 01
+    prefab: {fileID: 95385532601587579, guid: 64cb7d07ecc4d0647ba03a63f5f69e3b, type: 3}
+    count: 1
+    startDelay: 0
+    spawnInterval: 0.75
+  - label: Greedkin 02
+    prefab: {fileID: 3080435154479977545, guid: 80c1500df99b93d4fb9c10d323430928, type: 3}
+    count: 1
+    startDelay: 1.5
+    spawnInterval: 0.75
+  - label: Greedkin 03
+    prefab: {fileID: 2476555042863959105, guid: 40b3c18de7b91204c9d3c0dc7e5af0d6, type: 3}
+    count: 1
+    startDelay: 3
+    spawnInterval: 0.75
+  - label: Greedkin 04
+    prefab: {fileID: 5237975701112033923, guid: 98d5b77b6323f1149aaa93fb8c2d764b, type: 3}
+    count: 1
+    startDelay: 4.5
+    spawnInterval: 0.75
+  - label: Greedkin 05
+    prefab: {fileID: 4167530241327579792, guid: b6f94d80b600ddf47b4f41dbdb3e61f2, type: 3}
+    count: 1
+    startDelay: 6
+    spawnInterval: 0.75
+  - label: Greedkin 06
+    prefab: {fileID: 3273471568402971065, guid: 85fa61a5d816395428e6fa1e55ee5817, type: 3}
+    count: 1
+    startDelay: 7.5
+    spawnInterval: 0.75

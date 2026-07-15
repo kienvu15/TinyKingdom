@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 5ff07e3c8c2633c4bbce847af2063a30
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8381659573352531839
+    second: Idle_00
+  - first:
+      213: -2756498017462300822
+    second: Idle_01
+  - first:
+      213: -6714146255402601037
+    second: Idle_02
+  - first:
+      213: -4914351600739261391
+    second: Idle_03
+  - first:
+      213: 8045593241502845221
+    second: Idle_04
+  - first:
+      213: 457006308311335959
+    second: Idle_05
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -110,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_0
+      name: Idle_00
       rect:
         serializedVersion: 2
         x: 67
@@ -123,16 +141,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e8b641093e52fa94a9e774f25f11d58e
-      internalID: 1146016058
+      spriteID: 188f116a60d5eab80800000000000000
+      internalID: -8381659573352531839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_1
+      name: Idle_01
       rect:
         serializedVersion: 2
         x: 259
@@ -145,16 +163,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6315852b8388e6041b44b9e29a54d86d
-      internalID: -1390752166
+      spriteID: a6f471d58a3feb9d0800000000000000
+      internalID: -2756498017462300822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2
+      name: Idle_02
       rect:
         serializedVersion: 2
         x: 451
@@ -167,16 +185,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5cbd6181af641894bb10324472df44b2
-      internalID: -254557677
+      spriteID: 3b575b4cd8f82d2a0800000000000000
+      internalID: -6714146255402601037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_3
+      name: Idle_03
       rect:
         serializedVersion: 2
         x: 643
@@ -189,16 +207,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3aad349ad976d4f44b2cd062ac0981c1
-      internalID: -1688542172
+      spriteID: 1346098a147bccbb0800000000000000
+      internalID: -4914351600739261391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_4
+      name: Idle_04
       rect:
         serializedVersion: 2
         x: 835
@@ -211,16 +229,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3c6434511d96ec64dbc8bb18ed90ddd3
-      internalID: 17305593
+      spriteID: 5298f0ffc60b7af60800000000000000
+      internalID: 8045593241502845221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_5
+      name: Idle_05
       rect:
         serializedVersion: 2
         x: 1027
@@ -233,10 +251,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 59085af439e7d354aa5b967b1b6b6deb
-      internalID: 1764655041
+      spriteID: 714820be0dc975600800000000000000
+      internalID: 457006308311335959
       vertices: []
       indices: 
       edges: []
@@ -258,6 +276,12 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Idle_0: 1146016058
+      Idle_00: -8381659573352531839
+      Idle_01: -2756498017462300822
+      Idle_02: -6714146255402601037
+      Idle_03: -4914351600739261391
+      Idle_04: 8045593241502845221
+      Idle_05: 457006308311335959
       Idle_1: -1390752166
       Idle_2: -254557677
       Idle_3: -1688542172

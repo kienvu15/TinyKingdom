@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3578964495262310621}
   - component: {fileID: 6099249304364512671}
   - component: {fileID: 4484156651706559781}
+  - component: {fileID: 4603880495671809275}
+  - component: {fileID: 6746203779158335520}
   m_Layer: 0
   m_Name: Sheep_Grass
   m_TagString: Untagged
@@ -149,7 +151,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.65}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -159,5 +161,55 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.8125, y: 2.75}
+  m_Size: {x: 1.35, y: 0.7}
   m_EdgeRadius: 0
+--- !u!50 &4603880495671809275
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3665337320044412513}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!114 &6746203779158335520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3665337320044412513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ca2be424124a74d9693fe1df375bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SheepWanderer
+  sheepRigidbody: {fileID: 4603880495671809275}
+  animator: {fileID: 6099249304364512671}
+  spriteRenderer: {fileID: 3578964495262310621}
+  wanderRadius: 2.5
+  moveSpeed: 1.1
+  stoppingDistance: 0.08
+  minIdleDuration: 0.7
+  maxIdleDuration: 1.6
+  minGrazingDuration: 1.5
+  maxGrazingDuration: 3
+  spriteFacesRightByDefault: 1

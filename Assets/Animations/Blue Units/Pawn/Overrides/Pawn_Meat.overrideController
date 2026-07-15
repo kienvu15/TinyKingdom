@@ -7,9 +7,15 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pawn_Meat
-  m_Controller: {fileID: 9100000, guid: d077eb4ee71756c4c9ca5905a2695a17, type: 2}
+  m_Controller: {fileID: 9100000, guid: e7d116fce08f4864eba77bc837553c7c, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: c4cccce500130004688974dbfa705e70, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 486f4e3b4660e2748a0104be7aac1c4d, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 8402bf3d3edf8ca4b8c81fd6b87155ce, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: e54354620f88fd540b618db888b5ec43, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a819b7ddd6dfd994382a44445ff66bdf, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: 6ee9ec615c64d8f4fb80469811647436, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: b4fbb9eeb0d1ec24dbd1dc4d15791584, type: 2}
+    m_OverrideClip: {fileID: 0}

@@ -7,7 +7,7 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pawn_Pickaxe
-  m_Controller: {fileID: 9100000, guid: d077eb4ee71756c4c9ca5905a2695a17, type: 2}
+  m_Controller: {fileID: 9100000, guid: e7d116fce08f4864eba77bc837553c7c, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: c4cccce500130004688974dbfa705e70, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: ed39c009f32ccf1478c330ea2d3d475a, type: 2}
@@ -15,3 +15,9 @@ AnimatorOverrideController:
     m_OverrideClip: {fileID: 7400000, guid: a04ec66b2fb9bee48b5a182f96af2e8c, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 8402bf3d3edf8ca4b8c81fd6b87155ce, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 5c5ffbf5b14739d408da98733e922e15, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a819b7ddd6dfd994382a44445ff66bdf, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: 6ee9ec615c64d8f4fb80469811647436, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: b4fbb9eeb0d1ec24dbd1dc4d15791584, type: 2}
+    m_OverrideClip: {fileID: 0}
