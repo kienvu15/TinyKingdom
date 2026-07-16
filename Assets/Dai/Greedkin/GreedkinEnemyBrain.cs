@@ -57,6 +57,14 @@ public sealed class GreedkinEnemyBrain : MonoBehaviour
             navMeshAgent.updateUpAxis = false;
             navMeshAgent.enabled = true;
         }
+
+        // A controller normally writes the first Idle frame automatically.
+        // Force that first evaluation once so a prefab never appears blank for
+        // a frame when it has been instantiated during a spawn wave.
+        if (spriteRenderer != null && spriteRenderer.sprite == null && animator != null)
+        {
+            animator.Update(0f);
+        }
     }
 
     public void Configure(GreedkinRoute newRoute, Transform newMainHouse)
@@ -100,7 +108,8 @@ public sealed class GreedkinEnemyBrain : MonoBehaviour
         }
 
         Vector2 worldPosition = ToWorldPosition(navMeshAgent.transform.position);
-        if (finalLeg && Vector2.Distance(worldPosition, mainHouse.position) <= attackRange)
+        Vector2 targetPosition = GetStraightRoutePosition(target, finalLeg);
+        if (finalLeg && Vector2.Distance(worldPosition, targetPosition) <= attackRange)
         {
             navMeshAgent.isStopped = true;
             SetMoveSpeed(0f);
@@ -110,14 +119,14 @@ public sealed class GreedkinEnemyBrain : MonoBehaviour
 
         navMeshAgent.isStopped = false;
         navMeshAgent.speed = finalLeg ? runSpeed : walkSpeed;
-        Vector3 navTarget = ToNavPosition(target.position);
+        Vector3 navTarget = ToNavPosition(targetPosition);
         if ((navMeshAgent.destination - navTarget).sqrMagnitude > 0.01f)
         {
             navMeshAgent.SetDestination(navTarget);
         }
 
         pendingPosition = ToWorldPosition(navMeshAgent.transform.position);
-        if (!finalLeg && Vector2.Distance(worldPosition, target.position) <= waypointArrivalDistance)
+        if (!finalLeg && Vector2.Distance(worldPosition, targetPosition) <= waypointArrivalDistance)
         {
             waypointIndex++;
         }
@@ -178,6 +187,20 @@ public sealed class GreedkinEnemyBrain : MonoBehaviour
         Transform waypoint = route.GetWaypoint(waypointIndex);
         finalLeg = waypoint == null;
         return finalLeg ? mainHouse : waypoint;
+    }
+
+    private Vector2 GetStraightRoutePosition(Transform target, bool finalLeg)
+    {
+        if (finalLeg)
+        {
+            return mainHouse.position;
+        }
+
+        // The test level is a horizontal 2D lane.  Existing route waypoints
+        // may have been moved vertically in the Scene, but the enemy must not
+        // zig-zag: preserve each waypoint's X position and keep the lane at
+        // the Main House's Y position.
+        return new Vector2(target.position.x, mainHouse.position.y);
     }
 
     private void TryAttack()

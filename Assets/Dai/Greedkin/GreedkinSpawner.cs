@@ -9,8 +9,11 @@ public sealed class GreedkinSpawner : MonoBehaviour
     [SerializeField] private Transform mainHouse;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private bool spawnOnStart = true;
+    [SerializeField, Min(0f), Tooltip("Distance kept between enemies that are created by the same spawner. The first enemy remains exactly at Spawn Point.")]
+    private float spawnSpacing = 0.65f;
 
     private Coroutine spawnRoutine;
+    private int spawnedEnemyCount;
 
     private void Start()
     {
@@ -50,6 +53,7 @@ public sealed class GreedkinSpawner : MonoBehaviour
         }
 
         Transform origin = spawnPoint == null ? transform : spawnPoint;
+        spawnedEnemyCount = 0;
         foreach (GreedkinSpawnEntry entry in spawnConfig.entries)
         {
             if (entry == null || entry.prefab == null || entry.count <= 0)
@@ -64,7 +68,11 @@ public sealed class GreedkinSpawner : MonoBehaviour
 
             for (int index = 0; index < entry.count; index++)
             {
-                GameObject enemy = Instantiate(entry.prefab, origin.position, Quaternion.identity);
+                // Keep a deterministic queue behind the spawn point instead of
+                // placing every configured enemy on top of the same sprite.
+                Vector3 spawnPosition = origin.position + Vector3.left * (spawnedEnemyCount * spawnSpacing);
+                GameObject enemy = Instantiate(entry.prefab, spawnPosition, Quaternion.identity);
+                spawnedEnemyCount++;
                 GreedkinEnemyBrain brain = enemy.GetComponent<GreedkinEnemyBrain>();
                 if (brain == null)
                 {

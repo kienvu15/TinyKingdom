@@ -13,18 +13,8 @@ MonoBehaviour:
   m_Name: GreedkinTestSpawnConfig
   m_EditorClassIdentifier: Assembly-CSharp::GreedkinSpawnConfig
   entries:
-  - label: Test Greedkin 01
+  - label: Greedkin animation test
     prefab: {fileID: 95385532601587579, guid: 64cb7d07ecc4d0647ba03a63f5f69e3b, type: 3}
     count: 1
     startDelay: 0
-    spawnInterval: 0.5
-  - label: Test Greedkin 02
-    prefab: {fileID: 2476555042863959105, guid: 40b3c18de7b91204c9d3c0dc7e5af0d6, type: 3}
-    count: 1
-    startDelay: 1.25
-    spawnInterval: 0.5
-  - label: Test Greedkin 03
-    prefab: {fileID: 4167530241327579792, guid: b6f94d80b600ddf47b4f41dbdb3e61f2, type: 3}
-    count: 1
-    startDelay: 2.5
-    spawnInterval: 0.5
+    spawnInterval: 0

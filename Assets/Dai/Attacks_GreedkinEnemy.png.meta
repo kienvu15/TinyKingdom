@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ee826e5e4846cb4b8a4aa2e1a031ba4
-      internalID: -4092721171733784038
+      spriteID: da8559b5fbffcac418ca4e8caff39730
+      internalID: 1302401780
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: defa0a9f3124bac48bb76a5827363cc0
-      internalID: -1647102390182814264
+      spriteID: 97fb3dbbda565e246888c56c615a81b9
+      internalID: -1195543639
       vertices: []
       indices: 
       edges: []
@@ -146,7 +146,7 @@ TextureImporter:
         serializedVersion: 2
         x: 418
         y: 1045
-        width: 209
+        width: 241
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fcc82d3e0fe69b45a232d4cd8ef7451
-      internalID: 5086452385206426184
+      spriteID: 8fe2e27be8251c145b8fda4415dbd8d2
+      internalID: 1114534145
       vertices: []
       indices: 
       edges: []
@@ -166,9 +166,9 @@ TextureImporter:
       name: Greedkin_01_Attack_04
       rect:
         serializedVersion: 2
-        x: 627
+        x: 657
         y: 1045
-        width: 209
+        width: 195
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76912b131a8af4f4ab906c0a6efb0f89
-      internalID: -2578662935648533602
+      spriteID: 4105d5befc4aa0a459fbc31fb9a58dab
+      internalID: -1794068559
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
       name: Greedkin_01_Attack_05
       rect:
         serializedVersion: 2
-        x: 836
+        x: 859
         y: 1045
         width: 209
         height: 209
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f581bf4f8e08ab74aa8723955605a4cd
-      internalID: -8341695587581423673
+      spriteID: e673863a7a2242941a8644d3642955b9
+      internalID: -1066783969
       vertices: []
       indices: 
       edges: []
@@ -210,9 +210,9 @@ TextureImporter:
       name: Greedkin_01_Attack_06
       rect:
         serializedVersion: 2
-        x: 1045
+        x: 1083
         y: 1045
-        width: 209
+        width: 171
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -222,8 +222,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88cb92bd08406cf4eb8fc1d9930bd21b
-      internalID: 1305944362862020703
+      spriteID: 633df14ac79170b4dadf00e5e3134803
+      internalID: 327075609
       vertices: []
       indices: 
       edges: []
@@ -244,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7340e43160510da43a90eb5e54603fe4
-      internalID: 1792911758017802092
+      spriteID: 52e4eaf326e4f5b49af53e91862caaa2
+      internalID: 1393912793
       vertices: []
       indices: 
       edges: []
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4d21bab1c85adb4086c37011e9eb1ea
-      internalID: -4087072289359216156
+      spriteID: 19039a807261b374e8fea6ae6bf6e0a8
+      internalID: 775389451
       vertices: []
       indices: 
       edges: []
@@ -278,7 +278,7 @@ TextureImporter:
         serializedVersion: 2
         x: 418
         y: 836
-        width: 209
+        width: 235
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -288,8 +288,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf616bd3215d9fe45823491eca741e01
-      internalID: 6448907940165287656
+      spriteID: 1005bb6b598df1f428ab6e6478d28878
+      internalID: -1255491313
       vertices: []
       indices: 
       edges: []
@@ -298,9 +298,9 @@ TextureImporter:
       name: Greedkin_02_Attack_04
       rect:
         serializedVersion: 2
-        x: 627
+        x: 653
         y: 836
-        width: 209
+        width: 197
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -310,8 +310,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da3f9c6d03a8f9b45bee611dc2a1ff1e
-      internalID: -9166243905365565011
+      spriteID: be72ad6779013d341880edfc9d2f9b36
+      internalID: 1199785146
       vertices: []
       indices: 
       edges: []
@@ -320,9 +320,9 @@ TextureImporter:
       name: Greedkin_02_Attack_05
       rect:
         serializedVersion: 2
-        x: 836
+        x: 858
         y: 836
-        width: 209
+        width: 203
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -332,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ead52c6ac109ab746b0181fcbebc7ef1
-      internalID: -8192207379843115145
+      spriteID: c1c393a4225e1a343bbe3cd6377e088e
+      internalID: -1276228510
       vertices: []
       indices: 
       edges: []
@@ -342,9 +342,9 @@ TextureImporter:
       name: Greedkin_02_Attack_06
       rect:
         serializedVersion: 2
-        x: 1045
+        x: 1068
         y: 836
-        width: 209
+        width: 186
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -354,8 +354,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11b255b79d6507045bdc611bf62970ae
-      internalID: -8260160527415522605
+      spriteID: 769c956b187bf7a4f95a06245e6aa08f
+      internalID: -2094359273
       vertices: []
       indices: 
       edges: []
@@ -376,8 +376,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 601fa11a25a2da2448e15cf3764126ce
-      internalID: 7736842211908900572
+      spriteID: d782621c85e102c4aa564c8c506cb0a8
+      internalID: -1521615638
       vertices: []
       indices: 
       edges: []
@@ -398,8 +398,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8de663613aac0f24ca6768fa5a1174c5
-      internalID: -114438527256892231
+      spriteID: c0d372edeab462841a071fe2e949eec6
+      internalID: 1449706843
       vertices: []
       indices: 
       edges: []
@@ -410,7 +410,7 @@ TextureImporter:
         serializedVersion: 2
         x: 418
         y: 627
-        width: 209
+        width: 217
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -420,8 +420,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c814af58c8f25e94fbaac79fd5c559a6
-      internalID: 5317425691718867757
+      spriteID: 9c5e7ac0eb2b8ac469dc06036d4b0a37
+      internalID: 691383859
       vertices: []
       indices: 
       edges: []
@@ -430,7 +430,7 @@ TextureImporter:
       name: Greedkin_03_Attack_04
       rect:
         serializedVersion: 2
-        x: 627
+        x: 640
         y: 627
         width: 209
         height: 209
@@ -442,8 +442,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aed7136638504e34595304832ba12ec6
-      internalID: 3588461270577767045
+      spriteID: f364575a52f59e1489df5891c3475b0d
+      internalID: 396475808
       vertices: []
       indices: 
       edges: []
@@ -452,9 +452,9 @@ TextureImporter:
       name: Greedkin_03_Attack_05
       rect:
         serializedVersion: 2
-        x: 836
+        x: 850
         y: 627
-        width: 209
+        width: 218
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -464,8 +464,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 628cfd9bca983e54fa77543291317e1a
-      internalID: -344214341490850192
+      spriteID: 61dcf7e1bd1448a4a95aac74d9eeb162
+      internalID: -568981974
       vertices: []
       indices: 
       edges: []
@@ -474,9 +474,9 @@ TextureImporter:
       name: Greedkin_03_Attack_06
       rect:
         serializedVersion: 2
-        x: 1045
+        x: 1071
         y: 627
-        width: 209
+        width: 183
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -486,8 +486,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3eae0a03716cc14c8e202048fa8f8b8
-      internalID: -4457309807743715895
+      spriteID: 1ec4b032c81890649b31e17da74911f9
+      internalID: 2019635027
       vertices: []
       indices: 
       edges: []
@@ -497,74 +497,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 418
+        y: 439
         width: 209
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 816e112b17a163046aea0a9000817753
-      internalID: -6626935461293305562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Greedkin_04_Attack_02
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 418
-        width: 209
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ac6be6e93c7c064eb758935078ae807
-      internalID: -4771183446461337319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Greedkin_04_Attack_03
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 418
-        width: 209
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dee910429ee66194ebafa6e8e6b6c25c
-      internalID: 1336309312757702080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Greedkin_04_Attack_04
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 438
-        width: 225
         height: 189
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -574,8 +508,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8387d31e18f45bb468f7a0a7e4ed4903
-      internalID: -27351788650687320
+      spriteID: 48665cff941872147ac9a3430276ef8d
+      internalID: 2056906752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_04_Attack_02
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 434
+        width: 209
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3245f074b75dc6448bfba321401a29f7
+      internalID: 907632624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_04_Attack_03
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 442
+        width: 223
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e94140df9e46734ea008c0f56cb0154
+      internalID: -1927505766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_04_Attack_04
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 436
+        width: 211
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e31a93506197e4baba3a90333fdb0f
+      internalID: 1195945533
       vertices: []
       indices: 
       edges: []
@@ -584,10 +584,10 @@ TextureImporter:
       name: Greedkin_04_Attack_05
       rect:
         serializedVersion: 2
-        x: 836
-        y: 418
-        width: 209
-        height: 209
+        x: 852
+        y: 434
+        width: 222
+        height: 193
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,8 +596,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da310dcc38c7669499cbed45390f4a86
-      internalID: -3897955394281546338
+      spriteID: 84b856a0ac699a34d9d10c89a53b133a
+      internalID: -1649404787
       vertices: []
       indices: 
       edges: []
@@ -606,10 +606,10 @@ TextureImporter:
       name: Greedkin_04_Attack_06
       rect:
         serializedVersion: 2
-        x: 1045
-        y: 418
-        width: 209
-        height: 209
+        x: 1075
+        y: 438
+        width: 179
+        height: 189
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,8 +618,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43d6af8ef0b894f44a86e18a74808957
-      internalID: 1932125769936536099
+      spriteID: af77785026def9a4c90c696f809ef892
+      internalID: -1380905207
       vertices: []
       indices: 
       edges: []
@@ -629,9 +629,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 209
+        y: 252
         width: 209
-        height: 209
+        height: 184
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,8 +640,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e15abbffc12da341bc3de32a1b68e81
-      internalID: -590793100085330579
+      spriteID: 8c610adddd250684cb390c2658f33511
+      internalID: 1353597644
       vertices: []
       indices: 
       edges: []
@@ -650,10 +650,10 @@ TextureImporter:
       name: Greedkin_05_Attack_02
       rect:
         serializedVersion: 2
-        x: 209
-        y: 209
+        x: 208
+        y: 250
         width: 209
-        height: 209
+        height: 185
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,8 +662,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f923a28d6d93c8044b4af1eee3164ebe
-      internalID: 7413398309738837122
+      spriteID: 98510206a72365b4fabf2081cc4040e5
+      internalID: 1402955668
       vertices: []
       indices: 
       edges: []
@@ -673,9 +673,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 418
-        y: 209
-        width: 209
-        height: 209
+        y: 250
+        width: 223
+        height: 185
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -684,8 +684,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad68337e3f65d2e46abff8380322e629
-      internalID: 2043554394161742661
+      spriteID: 2638294e10a68524590d17725f03d789
+      internalID: 70120013
       vertices: []
       indices: 
       edges: []
@@ -694,10 +694,10 @@ TextureImporter:
       name: Greedkin_05_Attack_04
       rect:
         serializedVersion: 2
-        x: 627
-        y: 209
-        width: 209
-        height: 233
+        x: 644
+        y: 239
+        width: 203
+        height: 196
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,8 +706,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e9b90d282a58444191b90d984972174
-      internalID: 5322002779496865716
+      spriteID: 4d64686170454fd4eba0f5e3c8b2713e
+      internalID: -1858683909
       vertices: []
       indices: 
       edges: []
@@ -716,10 +716,10 @@ TextureImporter:
       name: Greedkin_05_Attack_05
       rect:
         serializedVersion: 2
-        x: 836
-        y: 209
-        width: 209
-        height: 209
+        x: 850
+        y: 251
+        width: 217
+        height: 186
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,8 +728,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70fa644cdae4fbd4f9977097546ddbae
-      internalID: -5666712406823756930
+      spriteID: c125ba1f9908c084e96660ddc3ccdbab
+      internalID: 719306924
       vertices: []
       indices: 
       edges: []
@@ -738,10 +738,10 @@ TextureImporter:
       name: Greedkin_05_Attack_06
       rect:
         serializedVersion: 2
-        x: 1045
-        y: 209
-        width: 209
-        height: 209
+        x: 1070
+        y: 241
+        width: 184
+        height: 197
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,8 +750,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fb8ff895727dc44d96f9d31a0543830
-      internalID: 258766465760558352
+      spriteID: 19e102209484ce646b80cf0191819d98
+      internalID: -1237460107
       vertices: []
       indices: 
       edges: []
@@ -763,7 +763,7 @@ TextureImporter:
         x: 0
         y: 0
         width: 209
-        height: 209
+        height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,8 +772,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13a5e44118c01664aa1cd5641c8a9419
-      internalID: 1408549896681828607
+      spriteID: 42914c47cd3aefe4191d29d8fb4fefa0
+      internalID: -2111367409
       vertices: []
       indices: 
       edges: []
@@ -785,7 +785,7 @@ TextureImporter:
         x: 209
         y: 0
         width: 209
-        height: 209
+        height: 249
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,8 +794,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 699069ff6656b97489db24570a45ba6c
-      internalID: -3336394420272165192
+      spriteID: b0522b6ada08e2b46aee07bacc217b32
+      internalID: 1595242157
       vertices: []
       indices: 
       edges: []
@@ -806,8 +806,8 @@ TextureImporter:
         serializedVersion: 2
         x: 418
         y: 0
-        width: 209
-        height: 209
+        width: 227
+        height: 251
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -816,8 +816,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a945f2ea0270e840ae0db8ae24e1c23
-      internalID: -6365759517043507025
+      spriteID: 5c07c90c035cfec4fb723d4f270fc40f
+      internalID: -729357753
       vertices: []
       indices: 
       edges: []
@@ -826,10 +826,10 @@ TextureImporter:
       name: Greedkin_06_Attack_04
       rect:
         serializedVersion: 2
-        x: 627
+        x: 645
         y: 0
-        width: 209
-        height: 209
+        width: 214
+        height: 237
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -838,8 +838,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b88486e0feb7844392590ca11c053a1
-      internalID: 2918585907826519935
+      spriteID: 810fdf4d6952a794590768e14039cb36
+      internalID: 1661933464
       vertices: []
       indices: 
       edges: []
@@ -848,10 +848,10 @@ TextureImporter:
       name: Greedkin_06_Attack_05
       rect:
         serializedVersion: 2
-        x: 836
+        x: 858
         y: 0
-        width: 209
-        height: 209
+        width: 217
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -860,8 +860,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e766ed725bb6eb41be8a7da468d277e
-      internalID: -3913573520004349676
+      spriteID: d29515aadb16c3749b78d5c4dc57c3fe
+      internalID: -1558379838
       vertices: []
       indices: 
       edges: []
@@ -870,10 +870,10 @@ TextureImporter:
       name: Greedkin_06_Attack_06
       rect:
         serializedVersion: 2
-        x: 1045
+        x: 1073
         y: 0
-        width: 209
-        height: 209
+        width: 181
+        height: 239
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -882,8 +882,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 646396349865f3748aa5c4440aaf8be2
-      internalID: 1887084303113213042
+      spriteID: 0b788abb039cb3548b600af3892e3b1b
+      internalID: -1346393710
       vertices: []
       indices: 
       edges: []
@@ -900,44 +900,87 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Greedkin_01_Attack_01: -4092721171733784038
-      Greedkin_01_Attack_02: -1647102390182814264
-      Greedkin_01_Attack_03: 5086452385206426184
-      Greedkin_01_Attack_04: -2578662935648533602
-      Greedkin_01_Attack_05: -8341695587581423673
-      Greedkin_01_Attack_06: 1305944362862020703
-      Greedkin_02_Attack_01: 1792911758017802092
-      Greedkin_02_Attack_02: -4087072289359216156
-      Greedkin_02_Attack_03: 6448907940165287656
-      Greedkin_02_Attack_04: -9166243905365565011
-      Greedkin_02_Attack_05: -8192207379843115145
-      Greedkin_02_Attack_06: -8260160527415522605
-      Greedkin_03_Attack_01: 7736842211908900572
-      Greedkin_03_Attack_02: -114438527256892231
-      Greedkin_03_Attack_03: 5317425691718867757
-      Greedkin_03_Attack_04: 3588461270577767045
-      Greedkin_03_Attack_05: -344214341490850192
-      Greedkin_03_Attack_06: -4457309807743715895
-      Greedkin_04_Attack_01: -6626935461293305562
-      Greedkin_04_Attack_02: -4771183446461337319
-      Greedkin_04_Attack_03: 1336309312757702080
-      Greedkin_04_Attack_04: -27351788650687320
-      Greedkin_04_Attack_05: -3897955394281546338
-      Greedkin_04_Attack_06: 1932125769936536099
-      Greedkin_05_Attack_01: -590793100085330579
-      Greedkin_05_Attack_02: 7413398309738837122
-      Greedkin_05_Attack_03: 2043554394161742661
-      Greedkin_05_Attack_04: 5322002779496865716
-      Greedkin_05_Attack_05: -5666712406823756930
-      Greedkin_05_Attack_06: 258766465760558352
-      Greedkin_06_Attack_01: 1408549896681828607
-      Greedkin_06_Attack_02: -3336394420272165192
-      Greedkin_06_Attack_03: -6365759517043507025
-      Greedkin_06_Attack_04: 2918585907826519935
-      Greedkin_06_Attack_05: -3913573520004349676
-      Greedkin_06_Attack_06: 1887084303113213042
+      Attacks_GreedkinEnemy_0: 364731745
+      Attacks_GreedkinEnemy_1: -2013950101
+      Attacks_GreedkinEnemy_10: -1576629338
+      Attacks_GreedkinEnemy_11: -1538369926
+      Attacks_GreedkinEnemy_12: -403970652
+      Attacks_GreedkinEnemy_13: -442269886
+      Attacks_GreedkinEnemy_14: 883151506
+      Attacks_GreedkinEnemy_15: 524728386
+      Attacks_GreedkinEnemy_16: 1442990924
+      Attacks_GreedkinEnemy_17: 1419195919
+      Attacks_GreedkinEnemy_18: -1329899151
+      Attacks_GreedkinEnemy_19: 187097661
+      Attacks_GreedkinEnemy_2: 1676493825
+      Attacks_GreedkinEnemy_20: -1145661440
+      Attacks_GreedkinEnemy_21: -2140184569
+      Attacks_GreedkinEnemy_22: -625113968
+      Attacks_GreedkinEnemy_23: -859104945
+      Attacks_GreedkinEnemy_24: 845477800
+      Attacks_GreedkinEnemy_25: -83208393
+      Attacks_GreedkinEnemy_26: -624418396
+      Attacks_GreedkinEnemy_27: 1279834601
+      Attacks_GreedkinEnemy_28: -768920346
+      Attacks_GreedkinEnemy_29: -1076394747
+      Attacks_GreedkinEnemy_3: 1457225116
+      Attacks_GreedkinEnemy_30: -65770029
+      Attacks_GreedkinEnemy_31: 684127884
+      Attacks_GreedkinEnemy_32: 1571209400
+      Attacks_GreedkinEnemy_33: -869753122
+      Attacks_GreedkinEnemy_34: -1216798644
+      Attacks_GreedkinEnemy_35: -265229704
+      Attacks_GreedkinEnemy_36: -1949002277
+      Attacks_GreedkinEnemy_37: -934585659
+      Attacks_GreedkinEnemy_38: 971132201
+      Attacks_GreedkinEnemy_39: 901769551
+      Attacks_GreedkinEnemy_4: 1928335596
+      Attacks_GreedkinEnemy_40: 879526258
+      Attacks_GreedkinEnemy_5: 1680470237
+      Attacks_GreedkinEnemy_6: 1437884028
+      Attacks_GreedkinEnemy_7: 42136546
+      Attacks_GreedkinEnemy_8: -1705545574
+      Attacks_GreedkinEnemy_9: -136458243
+      Greedkin_01_Attack_01: 1302401780
+      Greedkin_01_Attack_02: -1195543639
+      Greedkin_01_Attack_03: 1114534145
+      Greedkin_01_Attack_04: -1794068559
+      Greedkin_01_Attack_05: -1066783969
+      Greedkin_01_Attack_06: 327075609
+      Greedkin_02_Attack_01: 1393912793
+      Greedkin_02_Attack_02: 775389451
+      Greedkin_02_Attack_03: -1255491313
+      Greedkin_02_Attack_04: 1199785146
+      Greedkin_02_Attack_05: -1276228510
+      Greedkin_02_Attack_06: -2094359273
+      Greedkin_03_Attack_01: -1521615638
+      Greedkin_03_Attack_02: 1449706843
+      Greedkin_03_Attack_03: 691383859
+      Greedkin_03_Attack_04: 396475808
+      Greedkin_03_Attack_05: -568981974
+      Greedkin_03_Attack_06: 2019635027
+      Greedkin_04_Attack_01: 2056906752
+      Greedkin_04_Attack_02: 907632624
+      Greedkin_04_Attack_03: -1927505766
+      Greedkin_04_Attack_04: 1195945533
+      Greedkin_04_Attack_05: -1649404787
+      Greedkin_04_Attack_06: -1380905207
+      Greedkin_05_Attack_01: 1353597644
+      Greedkin_05_Attack_02: 1402955668
+      Greedkin_05_Attack_03: 70120013
+      Greedkin_05_Attack_04: -1858683909
+      Greedkin_05_Attack_05: 719306924
+      Greedkin_05_Attack_06: -1237460107
+      Greedkin_06_Attack_01: -2111367409
+      Greedkin_06_Attack_02: 1595242157
+      Greedkin_06_Attack_03: -729357753
+      Greedkin_06_Attack_04: 1661933464
+      Greedkin_06_Attack_05: -1558379838
+      Greedkin_06_Attack_06: -1346393710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
