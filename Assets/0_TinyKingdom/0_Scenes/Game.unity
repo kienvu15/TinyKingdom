@@ -298,7 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c0e873054c3edd419bb7d0ae1d3c1d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Villager
-  jobType: 0
+  jobType: 1
   speed: 3
   arriveDistance: 0.1
   TargetPosition: {x: 0, y: 0}

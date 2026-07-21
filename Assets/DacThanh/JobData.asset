@@ -14,13 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::JobData
   jobType: 2
   jobName: Archer
+  jobIcon: {fileID: 1457998115, guid: 2ce9befd3f131824ebd41da97e4e5515, type: 3}
   speed: 3
-  wanderMode: 0
-  minX: -10
-  maxX: 10
-  minY: -10
-  maxY: 10
-  relativeMinX: -2
-  relativeMaxX: 2
-  relativeMinY: -2
-  relativeMaxY: 2

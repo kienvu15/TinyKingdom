@@ -14,7 +14,7 @@ public class JobData : ScriptableObject
     [Header("Identity")]
     public JobType jobType = JobType.Person;
     public string jobName;
-
+    public Sprite jobIcon;
     [Header("Movement")]
     public float speed = 3f;
 }
