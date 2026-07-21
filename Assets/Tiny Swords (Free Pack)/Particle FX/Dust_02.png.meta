@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,12 +108,210 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Dust_02_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b9bde7d3715ab489ac1e36118569eb
+      internalID: 1852085224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_02_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 9
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e0104ff51d3ad47bc9c035bd465588
+      internalID: 24205651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_02_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 11
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de09e3b9e9c43ff4dabc41293660caa2
+      internalID: 1183383597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_02_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 11
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2925588b6d1faa348900bbc896e0e197
+      internalID: 1513710957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_02_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 10
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba6d67736b0c564dafce3a4927c6bb3
+      internalID: -1898406010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_02_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 16
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2df86a39748044eb28e1033989f403
+      internalID: 1256064643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_02_6
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 16
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6426e71018d51a04fbd27095bc8511aa
+      internalID: 1395252487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_02_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 19
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afb6b2a70af31144b1d791d9b9897ef
+      internalID: -1743230115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_02_8
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 27
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9e9be120034b845a125698fd406852
+      internalID: 100193555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 77cb34967b160e642b912494a54a8b2f
     internalID: 0
     vertices: []
     indices: 
@@ -121,8 +319,49 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Dust_02_0: 1852085224
+      Dust_02_1: 24205651
+      Dust_02_10: -271871919
+      Dust_02_11: -715517874
+      Dust_02_12: 1862996392
+      Dust_02_13: 1591300541
+      Dust_02_14: 1788920820
+      Dust_02_15: -489575714
+      Dust_02_16: 830344075
+      Dust_02_17: 506057257
+      Dust_02_18: -16056889
+      Dust_02_19: 2070713009
+      Dust_02_2: 1183383597
+      Dust_02_20: -1154741758
+      Dust_02_21: 28620994
+      Dust_02_22: 1048336853
+      Dust_02_23: 1178379431
+      Dust_02_24: -1271396204
+      Dust_02_25: 1654339380
+      Dust_02_26: -2142014020
+      Dust_02_27: -1442275201
+      Dust_02_28: -1131011950
+      Dust_02_29: 926123502
+      Dust_02_3: 1513710957
+      Dust_02_30: -1169134733
+      Dust_02_31: 1717242607
+      Dust_02_32: 1341443989
+      Dust_02_33: -1602652531
+      Dust_02_34: -1812596156
+      Dust_02_35: -2129880066
+      Dust_02_36: 89584170
+      Dust_02_37: -338607712
+      Dust_02_38: -987291697
+      Dust_02_4: -1898406010
+      Dust_02_5: 1256064643
+      Dust_02_6: 1395252487
+      Dust_02_7: -1743230115
+      Dust_02_8: 100193555
+      Dust_02_9: 1592556679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

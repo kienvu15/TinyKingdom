@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pawn_Axe
+  m_Controller: {fileID: 9100000, guid: e7d116fce08f4864eba77bc837553c7c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c4cccce500130004688974dbfa705e70, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5c79c2b20dbf6724e9f824ce90524496, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1031dec949e99ee4ca8f286484fadb09, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3161d4ad00621504e9ee079c85618599, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8402bf3d3edf8ca4b8c81fd6b87155ce, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 47d14ea0f59caef4192cac85b3dab3f8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a819b7ddd6dfd994382a44445ff66bdf, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: 6ee9ec615c64d8f4fb80469811647436, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: b4fbb9eeb0d1ec24dbd1dc4d15791584, type: 2}
+    m_OverrideClip: {fileID: 0}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pawn_Gold
+  m_Controller: {fileID: 9100000, guid: 44fe221b0e91dfb4b82a417bb0bdafa4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c4cccce500130004688974dbfa705e70, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4fb15e8b95108bd4b8e79e84c8f8a077, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8402bf3d3edf8ca4b8c81fd6b87155ce, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 32a62b2017b18ef4ab2db25356c9783f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ca83871788dc2214587b87319a4628c4, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: 81ae5f676cde2cb49808c668fc92a690, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: 1031dec949e99ee4ca8f286484fadb09, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: 4ce2520395e176d43a909f20ded46201, type: 2}
+    m_OverrideClip: {fileID: 0}

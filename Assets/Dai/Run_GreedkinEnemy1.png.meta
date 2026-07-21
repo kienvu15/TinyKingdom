@@ -1,0 +1,1152 @@
+fileFormatVersion: 2
+guid: 52c57a003cdbc6f48b22576dbcc84125
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Greedkin_01_Run_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 905
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8019ee29a76b9ce4e880b3406ed6133a
+      internalID: 795435931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_01_Run_02
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 905
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4600c15bb383546aed66186833f1ea
+      internalID: 1106442542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_01_Run_03
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 905
+        width: 190
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3353674bc9907d84dbef3bf9b749ebf9
+      internalID: -356514443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_01_Run_04
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 905
+        width: 152
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad9508190a32fb42bacc0166421a905
+      internalID: 2006697281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_01_Run_05
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 905
+        width: 186
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a23d0061d3b933499e15ea1e39e5a0f
+      internalID: -460859951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_01_Run_06
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 905
+        width: 156
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe06768bc879074c8f24d4199916034
+      internalID: 488286077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_01_Run_08
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 905
+        width: 218
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f926f7b2ac072ab4fb1b824b4fc253ef
+      internalID: -1056932674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_02_Run_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcbc6694b4b3e744be612cc8d2d3a9d
+      internalID: 217248389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_02_Run_02
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 724
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0595f04e53899d4795045547d1f9ed7
+      internalID: 1620580551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_02_Run_03
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 724
+        width: 178
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b4841877e78444fadaf51e7d5b382d
+      internalID: -2011608576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_02_Run_04
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 724
+        width: 158
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2302fdd17aead449aac063c4decc81f
+      internalID: -1740834399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_02_Run_05
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 724
+        width: 178
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a6eb8559fe796408b7a749fd7e9d60
+      internalID: -565208649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_02_Run_07
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 724
+        width: 185
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16c222d131d77f4b9e88a983b185e9a
+      internalID: 636356845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_02_Run_08
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 724
+        width: 215
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf329f71587a0c409e10f026170bca3
+      internalID: 1720224583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_03_Run_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 181
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ef324e33c9a964a8277080e376d27a
+      internalID: -1789546681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_03_Run_02
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 568
+        width: 181
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05059cb28b2999e44861c67473c40271
+      internalID: -778820590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_03_Run_03
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 559
+        width: 192
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a678c34002812f489c95103c040e5ce
+      internalID: 453377646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_03_Run_05
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 568
+        width: 164
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b032fbc5b08b58e49a0132a1a82337a4
+      internalID: -262983620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_03_Run_06
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 566
+        width: 168
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503270d8eced80b4eb3f07ef81117972
+      internalID: 1256702540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_03_Run_07
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 569
+        width: 183
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce825a20b55ec4479a7ab80815f6d75
+      internalID: 1438298385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_03_Run_08
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 570
+        width: 206
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34028c7ee24815049bf51794d6004227
+      internalID: -1683149064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_04_Run_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 181
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97f7b0bd2cbd7447ba2c502617d4597
+      internalID: 1657879232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_04_Run_02
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 404
+        width: 181
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652530737f2f30641b7360c2c5b1a2ff
+      internalID: -1835227214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_04_Run_03
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 398
+        width: 208
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9529c3ea732cc114d950769fd6245c45
+      internalID: -1045542158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_04_Run_05
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 398
+        width: 152
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2edebd7a3b4434794f65c679ccd8a1
+      internalID: 144368910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_04_Run_06
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 403
+        width: 166
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e6d6cee6219ab4893955dda4a94ed7
+      internalID: -21382320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_04_Run_07
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 410
+        width: 173
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcfd24eb9cfbea43b8a2319f4d8c6cf
+      internalID: -757896772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_04_Run_08
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 404
+        width: 224
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6c8227408c12042ad1432bd8c085b8
+      internalID: 187704537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_05_Run_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 181
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f936e8085d610c41a54f9b0b4e42147
+      internalID: -333418311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_05_Run_02
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 240
+        width: 181
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6add79bf78f955b4eb874d5f0d65dfa1
+      internalID: 32981759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_05_Run_03
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 237
+        width: 207
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02a48cc423f7ca4cb160dd20ba62c1d
+      internalID: 1189760183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_05_Run_05
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 240
+        width: 156
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568ca8ee313c13e459676261d006ae9e
+      internalID: -1194876417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_05_Run_06
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 220
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28506a563a852240b371d1c15cc15ca
+      internalID: 1372311423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_05_Run_07
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 216
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802c5f8bb9785d645a082b29e4941ac2
+      internalID: 1420437676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_05_Run_08
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 223
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981ae66be81fcd7449fd53f56888a206
+      internalID: -413601461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_06_Run_01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 37
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ade88023b84ee42805c5f2e0b1da2d
+      internalID: 1481435642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_06_Run_02
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 34
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cd7a07f3bc91d4ca027d96ac0e6cd3
+      internalID: -2044012509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_06_Run_03
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 32
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0165e13369248e246b328f246324386e
+      internalID: -1532563218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_06_Run_04
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 23
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c42b0025a5e34545b54c339e9f26a5d
+      internalID: 1993578010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_06_Run_05
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 22
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a95a2b2902f5442b846a847ebb13bf
+      internalID: 555568446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_06_Run_07
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 32
+        width: 189
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce196a878a3c824f9bd36cc341d2a73
+      internalID: 1016567990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greedkin_06_Run_08
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 32
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533f6ec3a5faaec4aa195a240d777708
+      internalID: -1114090104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5772e6620aeaa31499c43899903dc058
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Greedkin_01_Run_01: 795435931
+      Greedkin_01_Run_02: 1106442542
+      Greedkin_01_Run_03: -356514443
+      Greedkin_01_Run_04: 2006697281
+      Greedkin_01_Run_05: -460859951
+      Greedkin_01_Run_06: 488286077
+      Greedkin_01_Run_07: 1230414737
+      Greedkin_01_Run_08: -1056932674
+      Greedkin_02_Run_01: 217248389
+      Greedkin_02_Run_02: 1620580551
+      Greedkin_02_Run_03: -2011608576
+      Greedkin_02_Run_04: -1740834399
+      Greedkin_02_Run_05: -565208649
+      Greedkin_02_Run_06: -1652847267
+      Greedkin_02_Run_07: 636356845
+      Greedkin_02_Run_08: 1720224583
+      Greedkin_03_Run_01: -1789546681
+      Greedkin_03_Run_02: -778820590
+      Greedkin_03_Run_03: 453377646
+      Greedkin_03_Run_04: 1826678600
+      Greedkin_03_Run_05: -262983620
+      Greedkin_03_Run_06: 1256702540
+      Greedkin_03_Run_07: 1438298385
+      Greedkin_03_Run_08: -1683149064
+      Greedkin_04_Run_01: 1657879232
+      Greedkin_04_Run_02: -1835227214
+      Greedkin_04_Run_03: -1045542158
+      Greedkin_04_Run_04: -826500316
+      Greedkin_04_Run_05: 144368910
+      Greedkin_04_Run_06: -21382320
+      Greedkin_04_Run_07: -757896772
+      Greedkin_04_Run_08: 187704537
+      Greedkin_05_Run_01: -333418311
+      Greedkin_05_Run_02: 32981759
+      Greedkin_05_Run_03: 1189760183
+      Greedkin_05_Run_04: -712568412
+      Greedkin_05_Run_05: -1194876417
+      Greedkin_05_Run_06: 1372311423
+      Greedkin_05_Run_07: 1420437676
+      Greedkin_05_Run_08: -413601461
+      Greedkin_06_Run_01: 1481435642
+      Greedkin_06_Run_02: -2044012509
+      Greedkin_06_Run_03: -1532563218
+      Greedkin_06_Run_04: 1993578010
+      Greedkin_06_Run_05: 555568446
+      Greedkin_06_Run_06: 759479779
+      Greedkin_06_Run_07: 1016567990
+      Greedkin_06_Run_08: -1114090104
+      Run_GreedkinEnemy1_0: -1659248051
+      Run_GreedkinEnemy1_1: 953247247
+      Run_GreedkinEnemy1_10: -1605837726
+      Run_GreedkinEnemy1_11: 1926295023
+      Run_GreedkinEnemy1_12: -1812898354
+      Run_GreedkinEnemy1_13: 441199550
+      Run_GreedkinEnemy1_14: 443109069
+      Run_GreedkinEnemy1_15: -433777548
+      Run_GreedkinEnemy1_16: 1125582133
+      Run_GreedkinEnemy1_17: 215665735
+      Run_GreedkinEnemy1_18: 14954781
+      Run_GreedkinEnemy1_19: 1499486388
+      Run_GreedkinEnemy1_2: -963415569
+      Run_GreedkinEnemy1_20: -1593358594
+      Run_GreedkinEnemy1_21: 1518023719
+      Run_GreedkinEnemy1_22: -605195622
+      Run_GreedkinEnemy1_23: -1806651001
+      Run_GreedkinEnemy1_24: 736522233
+      Run_GreedkinEnemy1_25: -324799430
+      Run_GreedkinEnemy1_26: -1455657434
+      Run_GreedkinEnemy1_27: 1009499593
+      Run_GreedkinEnemy1_28: -1455583119
+      Run_GreedkinEnemy1_29: 17281010
+      Run_GreedkinEnemy1_3: -2141124982
+      Run_GreedkinEnemy1_30: -245437388
+      Run_GreedkinEnemy1_31: -1805908788
+      Run_GreedkinEnemy1_32: 270260140
+      Run_GreedkinEnemy1_33: -735237261
+      Run_GreedkinEnemy1_34: -1343436539
+      Run_GreedkinEnemy1_35: 1543385398
+      Run_GreedkinEnemy1_36: 1699073129
+      Run_GreedkinEnemy1_37: 1639480352
+      Run_GreedkinEnemy1_38: -1390222033
+      Run_GreedkinEnemy1_39: -1598622954
+      Run_GreedkinEnemy1_4: -1892394973
+      Run_GreedkinEnemy1_40: -922525879
+      Run_GreedkinEnemy1_41: -379782695
+      Run_GreedkinEnemy1_42: 666959385
+      Run_GreedkinEnemy1_43: 1838100495
+      Run_GreedkinEnemy1_44: 9826559
+      Run_GreedkinEnemy1_45: -2081033968
+      Run_GreedkinEnemy1_46: -330567903
+      Run_GreedkinEnemy1_47: -2078747202
+      Run_GreedkinEnemy1_48: -795617792
+      Run_GreedkinEnemy1_49: -1845898150
+      Run_GreedkinEnemy1_5: -1243614572
+      Run_GreedkinEnemy1_50: 1390506572
+      Run_GreedkinEnemy1_51: 101682260
+      Run_GreedkinEnemy1_52: -1850244993
+      Run_GreedkinEnemy1_53: -1177986685
+      Run_GreedkinEnemy1_54: 136910074
+      Run_GreedkinEnemy1_55: -843270744
+      Run_GreedkinEnemy1_56: 456280196
+      Run_GreedkinEnemy1_57: 1905378664
+      Run_GreedkinEnemy1_58: -1947040375
+      Run_GreedkinEnemy1_59: 189192113
+      Run_GreedkinEnemy1_6: -218366681
+      Run_GreedkinEnemy1_60: -1825012478
+      Run_GreedkinEnemy1_7: 670819197
+      Run_GreedkinEnemy1_8: 924958107
+      Run_GreedkinEnemy1_9: 1569052975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
