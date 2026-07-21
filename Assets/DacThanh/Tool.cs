@@ -3,7 +3,7 @@ using UnityEngine;
 public class Tool : MonoBehaviour
 {
     public GameObject owner;
-
+    JobData toolData;
     private void Start()
     {
         FindVillager();
@@ -19,13 +19,14 @@ public class Tool : MonoBehaviour
 
     private void FindVillager()
     {
-        Villager[] villagers = FindObjectsOfType<Villager>();
+        Person[] villagers = FindObjectsOfType<Person>();
 
         float minDistance = Mathf.Infinity;
-        Villager nearestVillager = null;
+        Person nearestVillager = null;
 
-        foreach (Villager villager in villagers)
+        foreach (Person villager in villagers)
         {
+            if (villager == null) return;
             if (villager.hasTool)
                 continue;
 
@@ -52,7 +53,7 @@ public class Tool : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Villager villager = other.GetComponent<Villager>();
+            Person villager = other.GetComponent<Person>();
 
             if (villager != null)
             {
