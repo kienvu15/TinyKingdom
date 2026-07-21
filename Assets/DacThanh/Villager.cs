@@ -12,7 +12,7 @@ public class Person : MonoBehaviour
     [Header("Random Area")]
     public Vector2 TargetPosition;
     private Vector2 randomTarget;
-
+    private Vector2 spawnpointPosition;
     // All Bool variable
     public bool hasTool;
     public bool hasMoveCommand;
@@ -21,6 +21,7 @@ public class Person : MonoBehaviour
 
     private void Start()
     {
+        spawnpointPosition = transform.position;
         hasTool = false;
         hasMoveCommand = false;
         isSelected = false;
@@ -57,23 +58,60 @@ public class Person : MonoBehaviour
         switch (jobType)
         {
             case JobType.Person:
+                DoPersonJob();
+                break;
             case JobType.Villager:
                 DoVillagerJob();
                 break;
-
             case JobType.Archer:
                 DoArcherJob();
                 break;
         }
     }
 
-    // ====== Villager ======
+    #region Person Jobs
+
+    void DoPersonJob()
+    {
+        if (Vector2.Distance(transform.position, randomTarget) <= arriveDistance)
+        {
+            PersonMove(); 
+        }
+        else
+        {
+            Move(randomTarget);
+        }
+    }
+    void PersonMove()
+    {
+        float minX = -4;
+        float maxX = 4;
+        float minY = -4;
+        float maxY = 4;
+
+        randomTarget = spawnpointPosition + new Vector2(
+            Random.Range(minX, maxX),
+            Random.Range(minY, maxY)
+        );
+        // không gọi Move ở đây, Update() lo việc di chuyển mỗi frame
+    }
+
+    void MoveToCastle(){}
+    #endregion
+    #region Villager Jobs
+// ====== Villager ======
     void DoVillagerJob()
     {
         if (hasMoveCommand)
         {
             Move(TargetPosition);
             return;
+        }
+
+        if (!hasTool)
+        {
+            FindTool(); // chưa có công cụ thì đi tìm
+            if (hasMoveCommand) return; // vừa tìm thấy tool và có lệnh di chuyển thì không random nữa
         }
 
         if (Vector2.Distance(transform.position, randomTarget) <= arriveDistance)
@@ -97,9 +135,40 @@ public class Person : MonoBehaviour
             Random.Range(minX, maxX),
             Random.Range(minY, maxY)
         );
-        // không gọi Move ở đây, Update() lo việc di chuyển mỗi frame
     }
 
+    void FindTool()
+    {
+        Tool[] tools = FindObjectsOfType<Tool>();
+
+        float minDistance = Mathf.Infinity;
+        Tool nearestTool = null;
+
+        foreach (Tool tool in tools)
+        {
+            if (tool == null) continue;
+            if (tool.owner != null) continue;
+
+            float distance = Vector2.Distance(
+                transform.position,
+                tool.transform.position);
+
+            if (distance < minDistance)
+            {
+                minDistance = distance;
+                nearestTool = tool;
+            }
+        }
+
+        if (nearestTool != null)
+        {
+            nearestTool.owner = gameObject;
+            TargetPosition = nearestTool.transform.position;
+            hasMoveCommand = true;
+        }
+    }
+    #endregion
+    #region Archer Jobs
     // ====== Archer ======
     void DoArcherJob()
     {
@@ -142,6 +211,7 @@ public class Person : MonoBehaviour
             hasMoveCommand = true;
         }
     }
+#endregion
 
     void Command() { }
 }
