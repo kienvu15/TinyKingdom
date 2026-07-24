@@ -12,6 +12,11 @@ public sealed class GreedkinRoute : MonoBehaviour
         return index >= 0 && index < WaypointCount ? waypoints[index] : null;
     }
 
+    public void SetWaypoints(params Transform[] newWaypoints)
+    {
+        waypoints = newWaypoints;
+    }
+
     private void OnDrawGizmos()
     {
         if (waypoints == null)

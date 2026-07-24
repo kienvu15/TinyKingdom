@@ -15,6 +15,14 @@ public sealed class GreedkinSpawner : MonoBehaviour
     private Coroutine spawnRoutine;
     private int spawnedEnemyCount;
 
+    public void Configure(GreedkinSpawnConfig newConfig, GreedkinRoute newRoute, Transform newMainHouse, Transform newSpawnPoint)
+    {
+        spawnConfig = newConfig;
+        route = newRoute;
+        mainHouse = newMainHouse;
+        spawnPoint = newSpawnPoint;
+    }
+
     private void Start()
     {
         if (spawnOnStart)

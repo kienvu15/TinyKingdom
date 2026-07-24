@@ -212,6 +212,15 @@ MonoBehaviour:
   waypointArrivalDistance: 0.15
   attackRange: 0.8
   attackInterval: 0.9
+  attackImpactDelay: 0.22
+  team: 2
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  detectionRadius: 4
+  targetScanInterval: 0.15
+  attackDamage: 20
+  maxHealth: 80
 --- !u!1 &3576824353357271554
 GameObject:
   m_ObjectHideFlags: 0
